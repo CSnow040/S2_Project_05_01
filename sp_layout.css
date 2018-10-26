@@ -19,6 +19,7 @@ html {
     height: 100%;
 }
 
+/* The body selector styles make a basic format for the website spacing and margining and the boundaries for the page content itself. */
 body {
     width: 95%;
     max-width: 960px;
@@ -28,6 +29,7 @@ body {
     min-height: 100%;
 }
 
+/* These selectors were chosen to have specific styles for the main navigational styles and how they are arranged around the page to look the best and most organized it can */
 header,
 ul,
 nav,
@@ -40,6 +42,7 @@ a {
 
 /* Row Styles */
 
+/* This section gives the grid styles an implication into the main styles for the CSS for all the page grids to have a main function throughout the entire page */
 .row::after {
     clear: both;
     display: table;
@@ -48,6 +51,7 @@ a {
 
 /* Page Header Styles */
 
+/* This section of styles gives the img in the header a place to go and the perfect way for it to fit with the navigation bars and how the navigational bars look */
 body header img {
     display: block;
     width: 70%;
@@ -68,6 +72,7 @@ header nav a {
 
 /* Horizontal Navigation List Styles */
 
+/* This navigational style makes one of the nav elements work horizontally accross the page with a perfect flow because its link into the HTML for it to have a nice neat organization */
 nav.horizontal li {
     display: block;
     width: 12.5%;
@@ -76,6 +81,7 @@ nav.horizontal li {
 
 /* Topics Styles */
 
+/* These specific styles for the lists in the unordered list are displayed as block with its specific margin sizing, widths, also floating   */
 ul#topics li {
     display: block;
     width: 20%;
@@ -84,6 +90,7 @@ ul#topics li {
     margin-right: 1.5%;
 }
 
+/* The specific first and last type styles align together to be equal to the page styles designed earlier within the CSS  */
 ul#topics li:first-of-type {
     margin-left: 7.75%;
 }
@@ -92,6 +99,7 @@ ul#topics li:last-of-type {
     margin-right: 7.75%;
 }
 
+/* The images within the list tags of the unordered list have a main design to them to fit within the boundaries of the main content section */
 ul#topics li img {
     display: block;
     width: 50%;
@@ -107,6 +115,7 @@ hr {
 
 /* Customer Comment Styles */
 
+/* The whole comments section adds many different styles to them ranging from lists, images, paragraphs or p tags, etc. which make the comments section designs fit the clients preferences of the document including images and lists being desplayed as block and having margin styles for their specific attributes */
 ul#comments {
     width: 75%;
     margin: 40px auto;
@@ -134,6 +143,7 @@ ul#comments li p {
 
 /* Footer Styles */
 
+/* The footer fits closly to the bottom of the page and is displayed if it specifies in the HTML */
 footer {
     clear: both;
 }
