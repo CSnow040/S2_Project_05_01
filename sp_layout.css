@@ -20,6 +20,7 @@ html {
 }
 
 /* The body selector styles make a basic format for the website spacing and margining and the boundaries for the page content itself. */
+
 body {
     width: 95%;
     max-width: 960px;
@@ -30,6 +31,7 @@ body {
 }
 
 /* These selectors were chosen to have specific styles for the main navigational styles and how they are arranged around the page to look the best and most organized it can */
+
 header,
 ul,
 nav,
@@ -43,6 +45,7 @@ a {
 /* Row Styles */
 
 /* This section gives the grid styles an implication into the main styles for the CSS for all the page grids to have a main function throughout the entire page */
+
 .row::after {
     clear: both;
     display: table;
@@ -52,6 +55,7 @@ a {
 /* Page Header Styles */
 
 /* This section of styles gives the img in the header a place to go and the perfect way for it to fit with the navigation bars and how the navigational bars look */
+
 body header img {
     display: block;
     width: 70%;
